@@ -1,6 +1,6 @@
 <h1>leet_code_75 🔥🔥🔥</h1>
 
-💪🏽I will be going through Lead Code 75 Study Plan.
+💪🏽 I will be going through Lead Code 75 Study Plan.
 
 📝 Here I will keep record of my solutions. 
 
