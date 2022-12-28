@@ -1,18 +1,17 @@
 class Solution:
 
-# Day 1 p1
-#     def runningSum(self, nums: list[int]) -> list[int]:
-#         total_list = []
-#         for i in range(len(nums)):
-#             # add nums from 0 to current i + 1
-#             total = sum(nums[:i + 1])
-#             total_list.append(total)
-#         return total_list
+    # Day 1 p1
+    #     def runningSum(self, nums: list[int]) -> list[int]:
+    #         total_list = []
+    #         for i in range(len(nums)):
+    #             # add nums from 0 to current i + 1
+    #             total = sum(nums[:i + 1])
+    #             total_list.append(total)
+    #         return total_list
 
     #  after watching java solution came up with python way
     def runningSum(self, nums: list[int]) -> list[int]:
-        total_list = []
-        total_list.append(nums[0])
+        total_list = [nums[0]]
         for i in range(1, len(nums)):
             total = nums[i] + total_list[i - 1]
             total_list.append(total)
@@ -42,13 +41,13 @@ class Solution:
 
     # faster code by other user - review
     # at each index, you need to find left sum and right sum
-        # if equivalent, return index
-        # else keep going. if you don't find it return -1
-        # def pivotIndex(self, nums: list[int]) -> int:
-        #     left, right = 0, sum(nums)
-        #     for index, num in enumerate(nums):
-        #         right -= num
-        #         if right == left:
-        #             return index
-        #         left += num
-        #     return -1
+    # if equivalent, return index
+    # else keep going. if you don't find it return -1
+    # def pivotIndex(self, nums: list[int]) -> int:
+    #     left, right = 0, sum(nums)
+    #     for index, num in enumerate(nums):
+    #         right -= num
+    #         if right == left:
+    #             return index
+    #         left += num
+    #     return -1
