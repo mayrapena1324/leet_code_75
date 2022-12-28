@@ -62,7 +62,7 @@ class Solution:
     # at each index, you need to find left sum and right sum
     # if equivalent, return index
     # else keep going. if you don't find it return -1
-    # def pivotIndex(self, nums: list[int]) -> int:
+    # def pivot_index(self, nums: list[int]) -> int:
     #     left, right = 0, sum(nums)
     #     for index, num in enumerate(nums):
     #         right -= num
