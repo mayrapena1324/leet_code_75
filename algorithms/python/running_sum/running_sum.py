@@ -1,7 +1,7 @@
 # Source : https://leetcode.com/problems/running-sum-of-1d-array/
 # ********************************************************************************** #
 """
-Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+Given an array nums. We define a running sum of an array as running_sum[i] = sum(nums[0]…nums[i]).
 
 Return the running sum of nums.
 
@@ -38,7 +38,7 @@ class Solution:
             total_list.append(total)
         return total_list
 
-#     def runningSum(self, nums: list[int]) -> list[int]:
+#     def running_sum(self, nums: list[int]) -> list[int]:
 #         total_list = []
 #         for i in range(len(nums)):
 #             # add nums from 0 to current i + 1
@@ -47,7 +47,7 @@ class Solution:
 #         return total_list
 
 # # faster code by other user - review
-#     def runningSum(self, nums: list[int]) -> list[int]:
+#     def running_sum(self, nums: list[int]) -> list[int]:
 #         for i in range(1, len(nums)):
 #             nums[i] += nums[i - 1]
 #         return nums
