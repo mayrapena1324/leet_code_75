@@ -4,6 +4,7 @@ class Solution:
     def runningSum(self, nums: list[int]) -> list[int]:
         total_list = []
         for i in range(len(nums)):
+            # add nums from 0 to current i + 1
             total = sum(nums[:i + 1])
             total_list.append(total)
         return total_list
