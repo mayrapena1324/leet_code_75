@@ -8,6 +8,11 @@ class Solution:
             total_list.append(total)
         return total_list
 
+    # faster code by other user - review
+    # def runningSum(self, nums: List[int]) -> List[int]:
+    #     for i in range(1, len(nums)):
+    #         nums[i] += nums[i - 1]
+    #     return nums
 
     # Day 1 p2 - my code
     def pivotIndex(self, nums: list[int]) -> int:
