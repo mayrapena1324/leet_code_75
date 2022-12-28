@@ -7,3 +7,18 @@
 👀 The solutions.py file will continue to grow as I go through the plan. main.py is used to test my solutions and will change from day to day. 
 
 🌱 Follow along with me and watch me grow
+
+LeetCode
+========
+
+### LeetCode Algorithm
+
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+
+
+
+
