@@ -3,7 +3,7 @@ class Solution:
 # Day 1 p1
     def runningSum(self, nums: list[int]) -> list[int]:
         total_list = []
-        for i in range(len(nums) + 1):
+        for i in range(len(nums)):
             total = sum(nums[:i + 1])
             total_list.append(total)
         return total_list
@@ -17,14 +17,17 @@ class Solution:
     # Day 1 p2 - my code
     def pivotIndex(self, nums: list[int]) -> int:
         for i in range(len(nums)):
+            # sets total to 0 if we are on left bound
             if i == 0:
                 first_half = 0
             else:
                 first_half = sum(nums[:i])
             second_half = sum(nums[i + 1:])
+            # print test
             print(f"{first_half} vs {second_half}")
             if first_half == second_half:
                 return i
+        # if not found at end of for loop returns -1
         return -1
 
     # faster code by other user - review
