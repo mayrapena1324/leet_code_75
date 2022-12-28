@@ -1,4 +1,4 @@
-<h1>leet_code_75 🔥🔥🔥</h1>
+<h1>Leetcode 75 🔥🔥🔥</h1>
 
 💪🏽 I will be going through Lead Code 75 Study Plan.
 
