@@ -17,7 +17,6 @@ LeetCode
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1480| <a href="https://leetcode.com/problems/running-sum-of-1d-array/">Running Sum of 1d Array</>a|<a href="./algorithms/runningSum/runningsum.py">Python</a>| Easy|
-
 |724| <a href="https://leetcode.com/problems/find-pivot-index/">Find Pivot Index</>a|<a href="./algorithms/pivotIndex/pivotindex.py">Python</a>| Easy|
 
 
