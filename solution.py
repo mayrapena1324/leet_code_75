@@ -1,11 +1,20 @@
 class Solution:
 
 # Day 1 p1
+#     def runningSum(self, nums: list[int]) -> list[int]:
+#         total_list = []
+#         for i in range(len(nums)):
+#             # add nums from 0 to current i + 1
+#             total = sum(nums[:i + 1])
+#             total_list.append(total)
+#         return total_list
+
+    #  after watching java solution came up with python way
     def runningSum(self, nums: list[int]) -> list[int]:
         total_list = []
-        for i in range(len(nums)):
-            # add nums from 0 to current i + 1
-            total = sum(nums[:i + 1])
+        total_list.append(nums[0])
+        for i in range(1, len(nums)):
+            total = nums[i] + total_list[i - 1]
             total_list.append(total)
         return total_list
 
