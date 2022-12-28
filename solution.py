@@ -11,7 +11,7 @@ class Solution:
 
     #  after watching java solution came up with python way
     def runningSum(self, nums: list[int]) -> list[int]:
-        total_list = [nums[0]]
+        total_list = [nums[0]]  # this syntax is new to me!  initialize list and set item
         for i in range(1, len(nums)):
             total = nums[i] + total_list[i - 1]
             total_list.append(total)
