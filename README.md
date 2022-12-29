@@ -16,6 +16,7 @@ LeetCode
 |---| ----- | -------- | ---------- |
 |1480| <a href="https://leetcode.com/problems/running-sum-of-1d-array/">Running Sum of 1d Array</a>|<a href="./algorithms/python/running_sum/running_sum.py">Python</a>| Easy|
 |724| <a href="https://leetcode.com/problems/find-pivot-index/">Find Pivot Index</a>|<a href="./algorithms/python/pivot_index/pivot_index.py">Python</a>| Easy|
+|205| <a href = "https://leetcode.com/problems/isomorphic-strings/">Isomorphic Strings</a>|<a href="./algorithms/python/isomorphic_strings/isomorphic_strings.py">Python</a>| Easy|
 
 
 
