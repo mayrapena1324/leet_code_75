@@ -39,8 +39,6 @@ Constraints:
 -1000 <= nums[i] <= 1000
 
 """
-
-
 # **********************************************************************************
 class Solution:
     def pivotIndex(self, nums: list[int]) -> int:
